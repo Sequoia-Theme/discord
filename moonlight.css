@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Nova+Mono&display=swap');
+.theme-dark {
+ --background-primary: #131317;
+    --background-secondary: #111216;
+    --background-secondary-alt: #131317;
+    --channeltextarea-background: #43444D;
+    --background-tertiary: #0F1014;
+    --background-accent: #ffbb88;
+    --text-normal: #dad7fd;
+    --text-spotify: #8eb6f5;
+    --text-muted: #575861;
+    --text-link: #fdfdfe;
+    --background-floating: #111216;
+    --header-primary: #868690;
+    --header-secondary: #8eb6f5;
+    --header-spotify: #8eb6f5;
+    --interactive-normal: #868690;
+    --interactive-hover: #fdfdfe;
+    --interactive-active: #868690;
+    --ping: #c58fff;
+    --background-modifier-selected: #131317b4;
+    --scrollbar-thin-thumb: #0F1014;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #0F1014;
+    --scrollbar-auto-track: transparent;
+    body {
+    --font-display: Manrope;
+}
+
+.body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
+    background-color: var(--background-tertiary);
+}
+
+.title-17SveM, .name-3Uvkvr{
+    font-size: 14px;
+}
+
+.panels-3wFtMD {
+    background-color: var(--background-secondary);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.username-h_Y3Us {
+    font-family: var(--font-display);
+    font-size: 14px;
+}
+
+.peopleColumn-1wMU14, .panels-j1Uci_, .peopleColumn-29fq28, .peopleList-2VBrVI, .content-2hZxGK, .header-1zd7se, .root-g14mjS .small-23Atuv .fullscreenOnMobile-ixj0e3{
+    background-color: var(--background-secondary);
+}
+
+.textArea-12jD-V, .lookBlank-3eh9lL,  .threadSidebar-1o3BTy, .scrollableContainer-2NUZem, .perksModalContentWrapper-3RHugb, .theme-dark .footer-31IekZ, .theme-light .footer-31IekZ{
+    background-color: var(--background-tertiary);
+}
+
+.numberBadge-2s8kKX, .base-PmTxvP, .baseShapeRound-1Mm1YW, .bar-30k2ka, .unreadMentionsBar-1Bu1dC, .mention-1f5kbO, .active-1SSsBb, .disableButton-220a9y {
+    background-color: var(--ping) !important;
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan, .lookOutlined-3sRXeN.colorRed-1TFJan {
+    color: var(--ping) !important;
+}
+
+.header-3OsQeK, .container-ZMc96U {
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.content-1gYQeQ, .layout-1qmrhw, .inputDefault-3FGxgL, .input-2g-os5, .input-2z42oC, .role-2TIOKu, .searchBar-jGtisZ {
+    border-radius: 6px;
+}
+
+.layout-1qmrhw:hover, .content-1gYQeQ:hover {
+    background-color: var(--background-modifier-selected)!important;
+}
